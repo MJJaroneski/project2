@@ -44,6 +44,6 @@ $(function() {
   $('#calendar').fullCalendar({
     googleCalendarApiKey: 'AIzaSyBUuez8PsQcm8DXT3-W5MnzoIK_Wi3Rz5Q',
       events: {
-    googleCalendarId: 'lucylaneproject2@group.calendar.google.com'
+    googleCalendarId: 'lucylaneproject2@group.calendar.google.com',
     }
   }})
