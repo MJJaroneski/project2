@@ -1,8 +1,8 @@
 {
   "development": {
     "username": "root",
-    "password": "Panda",
-    "database": "exampledb",
+    "password": "panda",
+    "database": "lucylaneDB",
     "host": "localhost",
     "dialect": "mysql"
   },
