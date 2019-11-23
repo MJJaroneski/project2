@@ -9,10 +9,34 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
         <link rel="stylesheet" href="">
     </head>
     <body>
-
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="/public/html/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/public/html/about.html">About and FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/public/html/calendar.html">Calendar</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+    </ul>
+                  
+            <div class="jumbotron">
+                <h1 class="display-4">Lucy Lane Gateway</h1>
+                <p class="lead">Click the button below to access directions to lucy Lane. If you like to request a password, fill out the form on the contact page and we'll shoot you an email. The page becomes available 8:00am the day of the show and will be unavailable 2:00am after the show.</p>
+                <hr class="my-4">
+               
+                <a class="btn btn-primary btn-lg" href="#" onClick="passWord()" role="button">Click to Enter</a>
+              </div>
+    <!-- make alerts to say youre too early/late. advertise next show and say when the page will go live. -->
         
         <SCRIPT>
             function passWord() {
@@ -52,6 +76,7 @@
 
             </SCRIPT>
             <CENTER>
+                <!-- this is the button -->
             <FORM>
             <input type="button" value="Enter Protected Area" onClick="passWord()">
             </FORM>
