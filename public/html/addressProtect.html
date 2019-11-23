@@ -50,7 +50,11 @@
                     <a class="fab fa-facebook-square" href="https://www.facebook.com/pg/LucyLaneLove/events/?ref=page_internal" target="_blank" style="font-size: 70px" role="button"></a>
                     <a class="fab fa-instagram" href="https://www.instagram.com/lucy._.lane/?hl=en" target="_blank" style="font-size: 70px" role="button"></a>
              </div>
-        
+             <CENTER>
+                <FORM>
+                <input type="button" value="Enter Protected Area" onClick="passWord()">
+                </FORM>
+            </CENTER>
         <SCRIPT>
             function passWord() {
             var testV = 1;
@@ -64,8 +68,12 @@
                         window.open('protectpage.html');
                         console.log("you're golden");
                         break;
-                    } else if(startDate <= currentDate && endDate <= currentDate){
-                        alert("you're too late");
+                    } else if(startDate >= currentDate){
+                        alert("you're too early");
+                        break;
+                    } else(endDate<=currentDate);{
+                        alert("youre too late");
+                        break;
                     };
                 testV+=1;
                 var pass1 =
@@ -88,11 +96,7 @@
            console.log(currentDate);
 
             </SCRIPT>
-            <CENTER>
-            <FORM>
-            <input type="button" value="Enter Protected Area" onClick="passWord()">
-            </FORM>
-            </CENTER>
+           
             
     </body>
 </html>
