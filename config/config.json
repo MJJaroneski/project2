@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "Reload89!",
+    "password": "panda",
     "database": "lucylaneDB",
     "host": "localhost",
     "dialect": "mysql"
