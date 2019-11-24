@@ -13,4 +13,20 @@ module.exports = function(app) {
       res.json(dbContacts);
     });
   });
+  app.post("/api/artist", function(req, res) {
+    console.log("req.body: " , req.body);
+    db.Artist.create({
+        artistName: req.body.artistName,
+        artistEmail: req.body.artistEmail,
+        artistPhone: req.body.artistPhone,
+        artistHome: req.body.artistHome,
+        artistAvailability: req.body.artistAvailability,
+        artistGenre: req.body.artistGenre,
+        artistFB: req.body.artistFB,
+        artistEPK: req.body.artistEPK,
+        artistTellUs: req.body.artistTellUs
+   }).then(function(dbArtist) {
+      res.json(dbArtist);
+    });
+  });
 };

@@ -7,6 +7,13 @@ module.exports = function(app) {
   });
 };
 
+module.exports = function(app) {
+  app.get("/artistcontact", function(req, res) {
+     res.sendFile(path.join(__dirname, "../public/html/artistcontact.html"));
+  });
+  
+};
+
 // // Load example page and pass in an example by id
 // app.get("/example/:id", function(req, res) {
 //   db.Example.findOne({ where: { id: req.params.id } }).then(function(dbExample) {

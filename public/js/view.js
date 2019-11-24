@@ -23,9 +23,9 @@ $(document).ready(function() {
           findout: newfind.val()
       }).then(function(data) {
          console.log("fxxxing...data is inserted"); 
-      })
+   })
   
-   };
+};
 
 
 // END OF DOC READY 
