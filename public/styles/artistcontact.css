@@ -10,3 +10,22 @@
   color: white;
   text-align: center;
 }
+body{
+  background: url(/public/img/Zack4.jpg);
+  background-size:cover;
+}
+.jumbotron{
+  background-color: rgb(75, 74, 74, 0.5);
+}
+.big{
+  font-family: 'Monoton', cursive;
+  font-size: 115px;
+}
+.mainButton{
+  background-color:  #F39303;
+  border: 0pt;
+}
+.lead{
+  font-size: 40px;
+  color: antiquewhite;
+}
