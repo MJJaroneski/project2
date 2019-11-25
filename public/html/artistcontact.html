@@ -8,7 +8,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="/public/styles/styles.css">
+        <link rel="stylesheet" href="../styles/styles.css">
         <link href="https://fonts.googleapis.com/css?family=Electrolize&display=swap" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
      
@@ -34,34 +34,26 @@
            </li>
     </ul>
     <div class="jumbotron">
-        <h1 class="display-4">Lucy Lane Address Page</h1>
-        <p class="lead">Add Stuff Here</p>
+
+        <h1 class="display-4">Booking Lucy Lane</h1>
+        <p class="lead">Wow! so you are interested in playing at Lucy Lane! That's awesome! Please fill this out so we can keep you/your band in mind when we are booking shows.</p>
         <hr class="my-4">
-        <p>Add Stuff </p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        <p>CONTACT ANDREW SMITH, MIRANDA JARONESKI, OR ANDREW WESTBROOK FOR QUESTIONS OR CONCERNS </p>
+        <p id="required_text">Required *</p>
+        <a class="btn btn-primary btn-md" href="../html/about.html" role="button">FAQ's</a>
         <br>
        
       </div>
-
-        <div class="container" id="inputForm">
-            <div class="card" style="width: 70rem;">
-               <img src="..." class="card-img-top" alt="...">
-                 <div class="card-body">
-                   <h2 class="card-title">Lucy Lane Booking</h2>
-                     <p class="card-text">Wow! so you are interested in playing at Lucy Lane! That's awesome! Please fill this out so we can keep you/your band in mind when we are booking shows.</p>
-                     <p class="card-text">CONTACT ANDREW SMITH, MIRANDA JARONESKI, OR ANDREW WESTBROOK FOR QUESTIONS OR CONCERNS</p>
-                     <p class="required-text">* Required</p>
-                 </div>
-            </div>
             <form>
                 <!--Artist Name-->
+           <div class="container" id="inputForm"style="width: 70rem;">
               <div class="form-group">
-                <label for="Artist Name">Artist Name<span id="required">*</span></label>
+                <label for="Artist Name">Artist Name<span class="required">*</span></label>
                 <input type="Artist Name" class="form-control" id="artistName" placeholder="Your Answer">
                </div>
                 <!--Email-->
                 <div class="form-group">
-                  <label for="exampleInputEmail1">Email Address <span id="required">*</span></label>
+                  <label for="exampleInputEmail1">Email Address <span class="required">*</span></label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                   <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                 </div>
@@ -72,17 +64,17 @@
                 </div>
                 <!--Where You From-->
                 <div class="form-group">
-                  <label for="whereYouFrom">Where Ya From? <span id="required">*</span></label>
+                  <label for="whereYouFrom">Where Ya From? <span class="required">*</span></label>
                   <input type="Artist Name" class="form-control" id="fromWhere" placeholder="Your Answer">
                 </div>
                  <!--Availability-->
                  <div class="form-group">
-                   <label for="Availability">Availability/ Days looking to book? <span id="required">*</span></label>
+                   <label for="Availability">Availability/ Days looking to book? <span class="required">*</span></label>
                    <input type="Availability" class="form-control" id="Availability" placeholder="Dates Here">
                 </div>
                 <!--Genre-->
                 <div class="form-group">
-                  <label for="Genre">Genre <span id="required">*</span></label>
+                  <label for="Genre">Genre <span class="required">*</span></label>
                   <input type="Genre" class="form-control" id="Genre" placeholder="Your Answer">
                 </div>
                  <!--Facebook-->
@@ -93,7 +85,7 @@
                 </div>
                 <!--EPK-->
                 <div class="form-group">
-                  <label for="epk">EPK/Links/Description<span id="required">*</span></label>
+                  <label for="epk">EPK/Links/Description<span class="required">*</span></label>
                   <input type="epk" class="form-control" id="epk" placeholder="Your Answer">
                 </div>
                 <!--Tell Us-->
@@ -103,12 +95,13 @@
                 </div>
                 <button type="submit" class="btn btn-primary" id= "submit_band">Submit</button>
               </form>
+            </div>
         </div>
         <script src="../js/artistcontact.js" type="text/javascript"></script>
     </body>
     <div class="footer">
-        <a class="fab fa-facebook-square" href="https://www.facebook.com/pg/LucyLaneLove/events/?ref=page_internal" target="_blank" style="font-size: 70px" role="button"></a>
-        <a class="fab fa-instagram" href="https://www.instagram.com/lucy._.lane/?hl=en" target="_blank" style="font-size: 70px" role="button"></a>
-        <a class="far fa-envelope" href="../html/contact.html" target="_blank" style="font-size: 70px" role="button"></a>
+        <a class="fab fa-facebook-square" class= "socialBtn" href="https://www.facebook.com/pg/LucyLaneLove/events/?ref=page_internal" target="_blank" style="font-size: 70px" role="button"></a>
+        <a class="fab fa-instagram" class= "socialBtn" href="https://www.instagram.com/lucy._.lane/?hl=en" target="_blank" style="font-size: 70px" role="button"></a>
+        <a class="far fa-envelope" class= "socialBtn" href="../html/contact.html" target="_blank" style="font-size: 70px" role="button"></a>
         </div>
 </html>

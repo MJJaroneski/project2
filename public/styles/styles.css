@@ -2,7 +2,8 @@
   line-height: 2.5;
 }
 .footer {
-  position: fixed;
+  position: sticky;
+  margin-top: 20px;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -20,4 +21,7 @@ margin-top: 20px;
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 40px;
+}
+#required_text , .required{
+  color: red;
 }
