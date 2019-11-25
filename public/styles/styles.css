@@ -1,6 +1,10 @@
 .list-group-item {
   line-height: 2.5;
 }
+body{
+  background-color: #881A12;
+  background-size: cover;
+}
 .footer {
   position: sticky;
   margin-top: 20px;
@@ -27,9 +31,28 @@ margin-top: 20px;
   color: red;
 }
 .display-4{
-  color: #881A12;
+  color: #F39303;
 }
 #address{
   text-align: center;
 }
-
+.nav-link{
+  font-family: 'Calistoga', cursive;
+  font-size: 28px;
+  color: #F39303;
+}
+.socialBtn{
+  color: #F39303;
+}
+.fa-facebook-square:before {
+  content: "\f082";
+  color: crimson;
+}
+.fa-instagram:before {
+  color: crimson;
+  content: "\f16d";
+}
+.fa-envelope:before {
+  content: "\f0e0";
+  color: crimson;
+}
