@@ -8,7 +8,7 @@
   text-align: center;
 }
 body{
-  background: url(/public/img/Zack4.jpg);
+  background: url(../img/Zack4.jpg);
   background-size:cover;
 }
 .jumbotron{

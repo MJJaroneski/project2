@@ -1,6 +1,6 @@
 body{
-    background: url(/public/img/Mon34.jpg);
-    background-size: cover;\
+    background: url(../img/Mon34.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .jumbotron{
