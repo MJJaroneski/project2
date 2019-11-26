@@ -17,3 +17,32 @@ body{
     font-size: 40px;
     color: antiquewhite;
 }
+#aboutLead{
+    color: antiquewhite;
+    font-size: 45px;
+}
+#aboutText{
+    color: bisque;
+    font-size: 20px;
+}
+.question{
+    background-color: rgb(75, 74, 74, 0.5);
+    color: antiquewhite !important;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.answer{
+    color: antiquewhite !important;
+    font-size: 20px;
+}
+.rules{
+    background-color: rgb(75, 74, 74, 0.5) !important;
+    color: antiquewhite !important;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+#harassment{
+    font-size: 30px;
+    color: antiquewhite !important;
+    text-align: center;
+}
