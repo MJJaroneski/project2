@@ -1,6 +1,9 @@
 body{
-    background: url(/public/img/Drag3.jpg);
+    background: url(/public/img/Zack4.jpg);
     background-size:cover;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255, 0.0);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 .jumbotron{
     background-color: rgb(75, 74, 74, 0.5);
@@ -14,6 +17,10 @@ body{
     border: 0pt;
 }
 .lead{
-    font-size: 40px;
+    font-size: 60px !important;
+    color: antiquewhite;
+}
+.text-center{
+    font-size: 70px;
     color: antiquewhite;
 }
